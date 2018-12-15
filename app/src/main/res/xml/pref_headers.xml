@@ -1,0 +1,16 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="jp.ac.neec.myapplication.SettingsActivity$GeneralPreferenceFragment"
+        android:title="ユーザー設定" />
+    <header
+        android:fragment="jp.ac.neec.myapplication.SettingsActivity$ProfileEditFragment"
+        android:title="プロフィール編集" />
+    <header
+        android:fragment="jp.ac.neec.myapplication.SettingsActivity$NotificationPreferenceFragment"
+        android:title="通知" />
+    <header
+        android:fragment="jp.ac.neec.myapplication.SettingsActivity$PasswordEditPreferenceFragment"
+        android:title="パスワードの変更"/>
+</preference-headers>

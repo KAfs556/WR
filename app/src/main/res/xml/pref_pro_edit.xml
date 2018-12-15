@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="画像選択">
+        <Preference
+            android:id="@+id/PicSelectDialog"
+            android:icon="@drawable/icon_1_1"
+            android:onClick="PicSelectDialog"
+            android:title="プロフィール画像" />
+        <Preference
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="背景画像"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="基本情報">
+        <EditTextPreference
+            android:key="edit1"
+            android:title="名前"
+            android:defaultValue="@string/user_name"
+            android:maxLines="1"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"/>
+        <ListPreference
+            android:key="edit2"
+            android:title="性別"
+            android:entries="@array/list_sex_title"
+            android:entryValues="@array/list_sex_value"
+            android:defaultValue="1"
+            android:dialogTitle="性別" />
+        <jp.ac.neec.myapplication.PreferenceNumberPicker
+            android:title="身長"
+            android:key="edit4"/>
+        <jp.ac.neec.myapplication.PreferenceDatePicker
+            android:title="生年月日"
+            android:key="edit5"/>
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_pro_edit_hairstyle_title"
+            android:entryValues="@array/pref_pro_edit_hairstyle_values"
+            android:key="edit6"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="髪型" />
+        <EditTextPreference
+            android:key="edit7"
+            android:title="自己紹介(135文字)"
+            android:maxLength="135"
+            android:minLines="2"
+            android:maxLines="5"
+            inputType="textMultiLine" />
+    </PreferenceCategory>
+</PreferenceScreen>

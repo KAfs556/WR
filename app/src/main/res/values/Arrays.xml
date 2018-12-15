@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="query_suggestions">
+        <item>トップス</item>
+        <item>Tシャツ</item>
+        <item>カットソー</item>
+        <item>シャツ</item>
+        <item>ブラウス</item>
+        <item>ポロシャツ</item>
+        <item>ニット</item>
+        <item>セーター</item>
+        <item>ベスト</item>
+        <item>パーカー</item>
+        <item>スウェット</item>
+        <item>トレーナー</item>
+        <item>カーディガン</item>
+        <item>アンサンブル</item>
+        <item>ジャージ</item>
+        <item>タンクトップ</item>
+        <item>キャミソール</item>
+        <item>チューブトップ</item>
+        <item>ジャケット</item>
+        <item>アウター</item>
+        <item>テーラードジャケット</item>
+        <item>ノーカラージャケット</item>
+        <item>デニムジャケット</item>
+        <item>ライダースジャケット</item>
+        <item>ブルゾン</item>
+        <item>カバーオール</item>
+        <item>ミリタリージャケット</item>
+        <item>MA-1</item>
+        <item>ダウンベスト</item>
+        <item>ダウンジャケット</item>
+        <item>コート</item>
+        <item>ダッフルコート</item>
+        <item>モッズコート</item>
+        <item>ピーコート</item>
+        <item>ステンカラーコート</item>
+        <item>トレンチコート</item>
+        <item>チェスターコート</item>
+        <item>ムートンコート</item>
+        <item>ナイロンジャケット</item>
+        <item>マウンテンパーカー</item>
+        <item>スタジャン</item>
+        <item>ポンチョ</item>
+        <item>ワンピース</item>
+        <item>シャツワンピース</item>
+        <item>ジャンパースカート</item>
+        <item>チュニック</item>
+        <item>ドレス</item>
+        <item>オーバーオール</item>
+        <item>サロペット</item>
+        <item>オールインワン</item>
+        <item>つなぎ</item>
+        <item>スカート</item>
+        <item>デニムスカート</item>
+        <item>フレアスカート</item>
+        <item>タイトスカート</item>
+        <item>ミニスカート</item>
+        <item>ロングスカート</item>
+        <item>パンツ</item>
+        <item>デニムパンツ</item>
+        <item>カーゴパンツ</item>
+        <item>チノパンツ</item>
+        <item>スラックス</item>
+        <item>シューズ</item>
+        <item>スニーカー</item>
+        <item>スリッポン</item>
+        <item>サンダル</item>
+        <item>パンプス</item>
+        <item>ブーツ</item>
+        <item>ブーティ</item>
+        <item>ドレスシューズ</item>
+        <item>バレエシューズ</item>
+        <item>ローファー</item>
+        <item>モカシン</item>
+        <item>デッキシューズ</item>
+        <item>レインシューズ</item>
+        <item>ビーチサンダル</item>
+        <item>レッグウェア</item>
+        <item>ソックス</item>
+        <item>靴下</item>
+        <item>タイツ</item>
+        <item>ストッキング</item>
+        <item>レギンス</item>
+        <item>スパッツ</item>
+        <item>レッグウォーマー</item>
+        <item>バッグ</item>
+        <item>ショルダーバッグ</item>
+        <item>トートバッグ</item>
+        <item>バッグパック</item>
+        <item>リュック</item>
+        <item>ボストンバッグ</item>
+        <item>ウエストポーチ</item>
+        <item>ハンドバッグ</item>
+        <item>クラッチバッグ</item>
+        <item>かごバッグ</item>
+        <item>ドラムバッグ</item>
+        <item>小物</item>
+        <item>ストール</item>
+        <item>スヌード</item>
+        <item>マフラー</item>
+        <item>ショール</item>
+        <item>ベルト</item>
+        <item>サスペンダー</item>
+        <item>アンダーウェア</item>
+        <item>ブラ</item>
+        <item>ショーツ</item>
+        <item>ブラ＆ショーツ</item>
+        <item>トランクス</item>
+        <item>ボクサーパンツ</item>
+        <item>ルームウェア</item>
+        <item>GU</item>
+        <item>UNIQLO</item>
+        <item>CONVERSE</item>
+        <item>WEGO</item>
+        <item>NIKE</item>
+        <item>ZARA</item>
+        <item>H＆M</item>
+        <item>no brand</item>
+        <item>adidas</item>
+        <item>GLOBAL WORK</item>
+        <item>LOWRYS FARM</item>
+        <item>VANS</item>
+        <item>ユニクロ</item>
+        <item>Dr.Martens</item>
+        <item>しまむら</item>
+        <item>NEW BALANCE</item>
+        <item>RAGEBLUE</item>
+        <item>無印良品</item>
+        <item>HARE</item>
+        <item>GAP</item>
+        <item>earth music＆ecology</item>
+        <item>Ungrid</item>
+        <item>BEAUTY＆YOUTH UNITED ARROWS</item>
+        <item>FOREVER21</item>
+        <item>nano・universe</item>
+        <item>niko and...</item>
+        <item>JEANASIS</item>
+        <item>URBAN RESEA</item>
+        <item>MOUSSY</item>
+        <item>Champion</item>
+        <item>DIESEL</item>
+        <item>BEAMS</item>
+        <item>AZUL</item>
+        <item>adidas originals</item>
+        <item>Lee</item>
+        <item>Reebok</item>
+        <item>INGNI</item>
+        <item>SPINNS</item>
+        <item>Honeys</item>
+        <item>studio CLIP</item>
+        <item>SLY</item>
+        <item>STUSSY</item>
+        <item>POLO RALPH LAUREN</item>
+        <item>Right-on</item>
+        <item>DHOLIC</item>
+        <item>THE NORTH FACE</item>
+        <item>GRL</item>
+        <item>NEW ERA</item>
+        <item>tutuanna</item>
+        <item>3coins</item>
+        <item>HAWKINS</item>
+        <item>NUOVO</item>
+        <item>DANNER</item>
+        <item>SPERRY TOPSIDER</item>
+        <item>SAUCONY</item>
+        <item>new balance</item>
+        <item>ASICS</item>
+        <item>gravis</item>
+        <item>PUMA</item>
+        <item>crocs</item>
+        <item>SKECHERS</item>
+        <item>PATRICK</item>
+        <item>LACOSTE</item>
+        <item>LE COQ</item>
+        <item>MERRELL</item>
+        <item>Timberland</item>
+        <item>MINNETONKA</item>
+        <item>clarks</item>
+        <item>HANES</item>
+        <item>JANSPORT</item>
+        <item>melange</item>
+        <item>a.v.v</item>
+        <item>Dr.ASSY</item>
+        <item>Disney</item>
+        <item>Dickies</item>
+        <item>EVE</item>
+        <item>EDWIN</item>
+        <item>FILA</item>
+        <item>HI-TEC</item>
+        <item>Keds</item>
+        <item>Pro Keds</item>
+        <item>le coq sportif</item>
+        <item>LIZ LISA</item>
+        <item>MAD TOOT</item>
+        <item>MIZUNO</item>
+        <item>mobus</item>
+        <item>Rip the swell</item>
+        <item>SHOPLIST</item>
+        <item>SEANS MATE</item>
+        <item>UNITED ALLOWS</item>
+        <item>DIESEL</item>
+        <item>AndA</item>
+        <item>POLO</item>
+        <item>RALPHLAUREN</item>
+        <item>靴下屋</item>
+        <item>Green Parks topic</item>
+        <item>チチカカ</item>
+        <item>HEART MARKET</item>
+
+    </string-array>
+    <string-array name="list_sex_title">
+        　　　　<item>男</item>
+        　　　　<item>女</item>
+　　</string-array>
+    <string-array name="list_sex_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="pref_pro_edit_hairstyle_title">
+                <item>ミディアム</item>
+                <item>ロング</item>
+                <item>ショート</item>
+                <item>スキンヘッド</item>
+                <item>モヒカン</item>
+            </string-array>
+    <string-array name="pref_pro_edit_hairstyle_values">
+                <item>0</item>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+                <item>4</item>
+            </string-array>
+    <string-array name="timeline_view">
+        <item>すべてのフォロワー</item>
+        <item>MEN</item>
+        <item>WOMEN</item>
+        <item>KIDS</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/hue_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:background="#000000"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:gravity="center_vertical"
+        android:background="@color/colorAccent">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/hue_circle_imageview"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_below="@id/hue_imageview"/>
+        <TextView
+            android:id="@+id/hue_textview"
+            android:layout_width="150dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_below="@id/hue_imageview" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_heart"
+                android:backgroundTint="@color/button"
+                android:textColor="@color/white"
+                android:onClick="onClickfav"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

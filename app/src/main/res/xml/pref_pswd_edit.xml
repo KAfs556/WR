@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="パスワード変更">
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="00000000"
+            android:inputType="textPassword"
+            android:key="edit1"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="現在のパスワード" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="00000000"
+            android:inputType="textPassword"
+            android:key="edit2"
+            android:maxLines="1"
+            android:hint="8文字以上12文字未満"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="新しいパスワード" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="11111111"
+            android:inputType="textPassword"
+            android:key="edit3"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="新しいパスワード（確認）"
+            android:imeOptions="actionUnspecified"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="マネキンを選択して下さい"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/manekin1"
+            android:src="@drawable/manekin_bj"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="150dp" />
+
+        <ImageView
+            android:id="@+id/manekin2"
+            android:src="@drawable/manekin_bk"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="150dp" />
+        <!--
+        <ImageView
+            android:id="@+id/manekin3"
+            android:src="@drawable/manekin_men_bj"
+            android:layout_margin="10dp"
+            android:layout_width="60dp"
+            android:layout_height="150dp" />
+            -->
+    </LinearLayout>
+</LinearLayout>

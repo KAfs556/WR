@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="登録" />
+        <item
+            android:id="@+id/nav_mypage"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="マイページ" />
+        <item
+            android:id="@+id/nav_timeline"
+            android:icon="@drawable/ic_rss_feed_black_24dp"
+            android:title="タイムライン" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="お気に入り" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="検索" />
+        <item
+            android:id="@+id/nav_dress"
+            android:icon="@drawable/ic_icon_dress"
+            android:title="着せ替えモード"/>
+    </group>
+    <group android:id="@+id/group_1">
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="設定" />
+            <item android:id="@+id/nav_proedit"
+                android:icon="@drawable/ic_mode_edit_black_24dp"
+                android:title="@string/pro_edit" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_settings_power_black_24dp"
+                android:title="ログアウト" />
+</group>
+
+</menu>
