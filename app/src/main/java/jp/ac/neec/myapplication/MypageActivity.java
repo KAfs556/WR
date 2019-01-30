@@ -55,6 +55,7 @@ public class MypageActivity extends AppCompatActivity{
         });
         final ImageView tapView = (ImageView)findViewById(R.id.circle_imageview);
 
+        //マイページのアイコンをタップしたらアラートダイヤログで拡大表示
         tapView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,6 +80,7 @@ public class MypageActivity extends AppCompatActivity{
         return true;
     }
 
+    //マイページに設定ボタンを実装
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();

@@ -68,6 +68,7 @@ public class DressCodeActivity extends AppCompatActivity{
         });
     }
 
+    //戻る
     @Override
     public void onBackPressed() {
         super.onBackPressed();

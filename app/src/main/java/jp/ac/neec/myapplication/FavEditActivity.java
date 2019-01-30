@@ -45,6 +45,7 @@ public class FavEditActivity extends AppCompatActivity {
             }
         });
 
+        //検索アイコン押下時
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

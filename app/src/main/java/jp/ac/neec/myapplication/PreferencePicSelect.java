@@ -18,6 +18,7 @@ import java.util.List;
 public class PreferencePicSelect extends PreferenceActivity {
     private static final int SELECT_PICTURE = 1;
 
+    //アイコンをタップ時に画像の変更を行う
     protected void onClick() {
         Intent pickPhotoIntent = new Intent()
                 .setType("image/*")
@@ -25,6 +26,8 @@ public class PreferencePicSelect extends PreferenceActivity {
         startActivityForResult(Intent.createChooser(pickPhotoIntent,
                 "Select Picture"), SELECT_PICTURE);
     }
+
+    //選択した画像をセット
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode == SELECT_PICTURE && resultCode == Activity.RESULT_OK) {

@@ -22,8 +22,8 @@ public class HueAdapter_TimeLine extends BaseAdapter {
     private Context mContext;
     private LayoutInflater mLayoutInflater;
     public String[] mHueArray = {
-            "KURANOSUKE", "皿", "まっちゃん", "たりょ",
-            "おさむ", "me", "あたらし", "上地祐輔"
+            "KURANOSUKE", "sara", "まっちゃん", "たり",
+            "おさむ", "takada", "あたらし", "上地"
     };
     public Integer[] mHueIdArray = {
             R.drawable.sample0, R.drawable.sample1,

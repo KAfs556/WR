@@ -18,6 +18,8 @@ public class FragmentOtherCode extends Fragment {
 
         GridView gridview = (GridView) view.findViewById(R.id.gridview);
         gridview.setAdapter(new ImageAdapterMyPage(getActivity()));
+
+        //グリッドビューアイテム押下時
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id){
                 // Send intent to SingleViewActivity_Timeline

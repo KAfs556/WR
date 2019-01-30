@@ -23,6 +23,7 @@ public class PreferenceNumberPicker extends DialogPreference {
         setNegativeButtonText(android.R.string.cancel);
     }
 
+    //身長をダイアログビューでセットするメソッド
     @Override
     protected void onBindDialogView(View view) {
         super.onBindDialogView(view);
@@ -32,6 +33,7 @@ public class PreferenceNumberPicker extends DialogPreference {
         mPicker.setMaxValue(200);
     }
 
+    //選択した値をサマリーにセット
     @Override
     protected void onDialogClosed(boolean positiveResult) {
         if (positiveResult) {

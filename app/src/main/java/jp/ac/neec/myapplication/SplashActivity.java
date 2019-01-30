@@ -11,6 +11,7 @@ import com.bumptech.glide.request.target.GlideDrawableImageViewTarget;
 
 public class SplashActivity extends Activity {
 
+    //スプラッシュを4秒表示
     private Handler handler = new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {

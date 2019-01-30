@@ -20,8 +20,8 @@ public class HueAdapter_Search extends BaseAdapter {
     private Context mContext;
     private LayoutInflater mLayoutInflater;
     public String[] mHueArray = {
-            "KURANOSUKE", "皿", "まっちゃん", "たりょ",
-            "おさむ", "me", "あたらし", "上地祐輔","神山"
+            "KURANOSUKE", "sara", "まっちゃん", "たり",
+            "おさむ", "takada", "あたらし", "上地","神山"
     };
     public String[] mHueSinArray = {
             "172cm", "155cm","168cm", "180cm",

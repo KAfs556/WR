@@ -16,6 +16,7 @@ public class PreferenceDatePicker extends DialogPreference {
                                 int defStyle) {
         super(context, attrs, defStyle);
     }
+    //生年月日をダイアログビューで設定するメソッド
     @Override
     protected View onCreateDialogView() {
         this.datePicker = new DatePicker(this.getContext());
@@ -28,6 +29,8 @@ public class PreferenceDatePicker extends DialogPreference {
         });
         return this.datePicker;
     }
+
+    //選択した値をサマリーにセット
     @Override
     protected void onDialogClosed(boolean positiveResult) {
         if(positiveResult){

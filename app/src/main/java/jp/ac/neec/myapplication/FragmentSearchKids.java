@@ -17,6 +17,8 @@ public class FragmentSearchKids extends Fragment {
         View view = inflater.inflate(R.layout.fragment_search_kids, container, false);
         GridView gridview = (GridView) view.findViewById(R.id.gridview_kids);
         gridview.setAdapter(new HueAdapter_Search(getActivity()));
+
+        //グリッドビューアイテム押下時
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id){
                 // Send intent to SingleViewActivity_Timeline

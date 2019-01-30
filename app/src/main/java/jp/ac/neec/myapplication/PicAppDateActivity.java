@@ -203,6 +203,8 @@ public class PicAppDateActivity extends AppCompatActivity {
             finish();
         }
     }
+
+
     private void insertData(SQLiteDatabase db, String cap, String bd, byte[] gz){
 
         ContentValues values = new ContentValues();

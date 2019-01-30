@@ -153,7 +153,7 @@ public class SearchActivity extends AppCompatActivity
 
     //ツールバーを押下時にHPをブラウザで開く
     public void onToolbarClick(View view) {
-        Uri uri = Uri.parse("http://wearremind.html.xdomain.jp/contact.html");
+        Uri uri = Uri.parse("");
         Intent intent = new Intent(Intent.ACTION_VIEW,uri);
         startActivity(intent);
     }
